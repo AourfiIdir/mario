@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background:url(/mario/images/mario-bg.jpg) ;
+    background-size: cover;
+}
+#board{
+    height: 540px;
+    width: 540px;
+    margin:0 auto;
+    display :flex;
+    flex-wrap: wrap;
+    background: url(/mario/images/soil.png);
+    border: 3px ;
+    border-radius: 15px;
+}
+
+#board div {
+    height:180px ;
+    width: 180px;
+    background-image: url(/mario/images/pipe.png);
+    background-size: cover;
+}
+#board div img{
+    height: 100px;
+    width: 100px;
+}
